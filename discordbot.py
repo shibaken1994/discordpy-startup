@@ -18,4 +18,9 @@ async def ping(ctx):
     await ctx.send('pong')
 
 
+@bot.command()
+async def あご(ctx):
+    await ctx.send('それ')
+
+    
 bot.run(token)
